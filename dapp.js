@@ -3,7 +3,7 @@ import auctionJson from "./build/contracts/MartianAuction.json";
 
 const Web3 = require("web3");
 
-const contractAddress = "0xC4a8af75fF3AA434010200F279ca8581A24BC0D5"; // ropsten contract address
+const contractAddress = "0xC611389a7Dc1F2C3989A2EaD3BF29Fe4C558116c"; // ropsten contract address
 
 const dApp = {
   ethEnabled: function() {
