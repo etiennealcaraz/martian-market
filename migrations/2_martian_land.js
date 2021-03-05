@@ -1,9 +1,9 @@
-const MartianMarket = artifacts.require("MartianMarket");
+const SneakerMarket = artifacts.require("SneakerMarket");
 
 module.exports = function(deployer) {
-  deployer.deploy(MartianMarket)
+  deployer.deploy(SneakerMarket)
   .then(async (contract) => {
-    await contract.registerLand('{"name":"Olympus Mons","image":"https://cdn.mos.cms.futurecdn.net/XNRcoHujh5mZHmPQZzYbgH-650-80.jpg"}');
+    await contract.registerLand('{"name":"Jordan Mocha","image":"https://sneakernews.com/wp-content/uploads/2020/07/air-jordan-1-retro-high-og-sail-dark-mocha-black-555088-105-1.jpg"}');
     await contract.registerLand('{"name":"Tharsis volcanoes","image":"https://cdn.mos.cms.futurecdn.net/DKavvKEEdrtRJhfKXndKeW-650-80.jpg"}');
     await contract.registerLand('{"name":"Valles Marineris","image":"https://cdn.mos.cms.futurecdn.net/vpZLAKQca68wDX7zb3AnpG-650-80.jpg"}');
     await contract.registerLand('{"name":"North Pole","image":"https://i.ytimg.com/vi/3N_o2JqVdwA/maxresdefault.jpg"}');
