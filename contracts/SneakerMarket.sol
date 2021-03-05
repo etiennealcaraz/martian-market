@@ -2,7 +2,7 @@ pragma solidity ^0.6.0;
 
 import '@openzeppelin/contracts/token/ERC721/ERC721.sol';
 import '@openzeppelin/contracts/access/Ownable.sol';
-import './SneakernAuction.sol';
+import './SneakerAuction.sol';
 
 contract SneakerMarket is ERC721, Ownable {
     constructor() ERC721("SneakerMarket", "MARS") public {}
