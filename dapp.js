@@ -3,7 +3,7 @@ import auctionJson from "./build/contracts/SneakerAuction.json";
 
 const Web3 = require("web3");
 
-const contractAddress = "0xC611389a7Dc1F2C3989A2EaD3BF29Fe4C558116c"; // ropsten contract address
+const contractAddress = "0x3E44c0A7c2a3DAD25D2504b1dbeb4aA8C50Ec620"; // ropsten contract address
 
 const dApp = {
   ethEnabled: function() {
